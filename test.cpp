@@ -25,6 +25,10 @@ void head_insert(LinkedList *L, int data)
     node->next = L->next;
     L->next = node;
 }
+// 获取第i个节点
+LNode* getItem(LinkedList *L, int i) {
+
+}
 
 void printList(LinkedList *L)
 {
@@ -42,4 +46,5 @@ int main()
     head_insert(L, 1);
     head_insert(L, 3);
     printList(L);
+
 }
